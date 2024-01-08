@@ -139,11 +139,6 @@ void Player::Update(const ViewProjection& viewProjection) {
 	worldTransform3DReticle_.translation_.z = posNear.z - mouseDirection.z * kDistanceTestObject;
 
 	worldTransform3DReticle_.UpdateMatrix();
-
-	ImGui::Begin("GamePad_Info");
-	ImGui::Text("L_Stick:MovePlayer\nR_Stick:MoveReticle\nR_Trigger:Shot");
-	ImGui::Text("Player:pos.z %f", model_->worldTransform.translation_.z);
-	ImGui::End();
 }
 
 // Drawの関数定義

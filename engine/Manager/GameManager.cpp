@@ -104,7 +104,7 @@ void GameManager::Run() {
 			sceneArr_[sceneNum_]->Update();
 
 			// ImGuiのパラメータを入れている
-			ImGuiAdjustParameter();
+			//ImGuiAdjustParameter();
 
 			// FPSカウンターの表示
 		/*	ImGui::Begin("Control panel");
