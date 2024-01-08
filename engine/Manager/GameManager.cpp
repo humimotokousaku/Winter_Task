@@ -12,7 +12,7 @@ GameManager::GameManager() {
 
 void GameManager::Initialize() {
 	// タイトル名を入力
-	const char kWindowTitle[] = "CG2_CLASS";
+	const char kWindowTitle[] = "LE2B_16_フミモトコウサク_Shot!";
 	// タイトルバーの変換
 	auto&& titleString = ConvertString(kWindowTitle);
 
